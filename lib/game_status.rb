@@ -25,9 +25,9 @@ def won?(board)
       return combo
     elsif combo.all? { |index| board[index] == 'O' }
       return combo
-    else false
     end
   end
+  false
 end
 
 def full?(board)
