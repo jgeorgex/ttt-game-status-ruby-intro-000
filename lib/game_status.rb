@@ -5,9 +5,13 @@ end
 
 # Define your WIN_COMBINATIONS constant
 
-def won?(boad)
-    if [0,1,2]
-      true
-    else false
-end
-end
+WIN_COMBINATIONS = [
+  [0,1,2], # Top
+  [3,4,5], # Middle horizontal
+  [6,7,8], # Bottom
+  [0,3,6], # Left
+  [1,4,7], # Middle vertical
+  [2,5,8], # Right
+  [0,4,8], # Right Diagonal
+  [2,4,6]  # Left Diagonal
+]
