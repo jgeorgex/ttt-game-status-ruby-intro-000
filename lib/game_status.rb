@@ -8,5 +8,6 @@ end
 def won?(boad)
     if [0,1,2]
       true
-    else false  
+    else false
+end
 end
